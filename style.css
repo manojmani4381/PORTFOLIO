@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:red;
+    color: black;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+#home h2 {
+    margin: 0;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bio img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.bio-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.bio-content p {
+    max-width: 600px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f04c4c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+portfolio {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+.portfolio-item {
+    background-color: #d2cbcb;
+    justify-content:space-between;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color:#f04c4c;
+    align-items: center;
+}
+
+.project, .skill {
+    margin-bottom: 20px;
+}
+
+#projects .project, #skills .skill-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+.project, .skill {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+.project h3 {
+    margin-top: 0;
+    color: #ff5733;
+}
+
+.progress {
+    background-color: #868284;
+    border-radius: 20px;
+    height: 10px;
+    width: 100%;
+}
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+}
+.progress-bar.html { 
+    width: 95%; background-color: red;
+}
+.progress-bar.css { 
+    width: 75%; background-color: red;
+}
+.progress-bar.javascript { 
+    width: 50%; background-color: red;
+}
+.progress-bar.java { 
+    width: 90%; background-color: red;
+}
+
+
+.progress-bar.english { 
+    width: 70%; background-color: red;
+}
+.progress-bar.tamil { 
+    width: 80%; background-color: red;
+}
+.progress-bar.telugu { 
+    width: 50%; background-color: red;
+}
+
+#contact form input, #contact form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form button {
+    padding: 10px;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #c13b19;
+}
+
+
+footer {
+    background-color: #333;
+    color:#f04c4c;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+   margin:0%;
+}
